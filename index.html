@@ -1,1 +1,350 @@
-1 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khrystel Aguila - CIT14 Resume/Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav" style="background-color: rgba(252, 159, 175, 0.959);">
+      <div class="logo">Khrystel Aguila</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#CV">Profile</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Khrystel Aguila</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()" style="background-color: rgb(233, 79, 105)">About</a></li>
+          <li><a href="#CV" onclick="toggleMenu()" style="background-color: rgb(233, 79, 105)">Profile</a></li>
+          <li><a href="#experience" onclick="toggleMenu()" style="background-color: rgb(233, 79, 105)">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()" style="background-color: rgb(233, 79, 105)">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()" style="background-color: rgb(233, 79, 105)">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./image and other assets/profile-pic.png" style="border-radius: 50%;" alt="khrystel Aguila profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1" style="color:#54314a;">Hello, I'm</p>
+        <h1 class="title">Khrystel Aguila</h1>
+        <p class="section__text__p2" style="color: #54314a;">Web Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='assets/AGUILA CV Resume.pdf'">
+            CV/RESUME
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./image and other assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/khrystel-bryana-aguila-09a149255/'"
+          />
+          <img
+            src="./image and other assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/KhrystellineA'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title" style="color: #54314a;">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./image and other assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container" style="background-color:rgba(252, 159, 174, 0.267);">
+              <img
+                src="./image and other assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>kinemerlu years <br />Fullstack Developer sana</p>
+            </div>
+            <div class="details-container" style="background-color:rgba(252, 159, 174, 0.267);">
+              <img
+                src="./image and other assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />Information Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I'm a 22-year-old 2nd-yer college student pursuing a degree in Information Technology with a focus on Web Technologies at the University of the Cordilleras. 
+              Beyond my academic journey, I like to dance, watch movies like "The Notebook," and read books such as "Midnight for Charlie Bone" and "Juliet Dove, Queen of Love."
+              In my downtime, I share my space with cute cats, Snowball, Ulingning, and Micho, adding warmth and companionship to my daily life. 
+              This portfolio is a snapshot of my academic and personal pursuits, and I'm eager to connect with like-minded individuals who share a passion for technology, art, and life.
+              Oh! and I like spicy foods lol~ kimi
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./image and other assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+
+    <section id="CV" >
+     
+      <div class="section-container">
+        <div class="cv-pic-container">
+          <img
+            src="image and other assets/resume-pic.jpg"
+            alt="Profile picture"
+            class="resume-pic"
+          />
+        </div>
+      
+        <div class="cv-text1">
+          <h1 class="cv-text2">KHRYSTEL</h1>
+          <h3 class="cv-text3">AGUILA AND I AM A<br>
+            GRAPHIC DESIGNER AND<br>
+            WEB DEVELOPER</h3>
+          <p class="cv-text1">
+            SKILLED WEB DEVELOPER WITH A STRONG<br>
+            GRAPHIC DESIGN BACKGROUND. PROFICIENT IN<br>
+            FRONT-END AND BACK-END DEVELOPMENT,<br>
+            WITH A FOCUS ON AESTHETICS AND USER<br>
+            EXPERIENCE. EXCELS IN CRAFTING VISUALLY<br>
+            APPEALING AND RESPONSIVE WEBSITES AND<br>
+            DIGITAL ASSETS. KNOWN FOR COMBINING<br>
+            TECHNICAL EXPERTISE WITH DESIGN<br>
+            SENSIBILITIES TO DELIVER EXCEPTIONAL<br>
+            SOLUTIONS.<br>
+          </p>
+          <h1 class="cv-text3">EDUCATION</h1>          
+                <h3>*UNIVERSITY OF THE CORDILLERAS</h3>
+                <p class="cv-text1">BACHELOR OF SCIENCE IN <br>INFORMATION TECHNOLOGY<br>Majored in Web Technology</p>          
+                <h3>*REFOCUS DIGITAL ACADEMY</h3>
+                <p class="cv-text1">DATA ANALYTICS<br>WEB DEVELOPMENT <br>DIGITAL MARKETING</p>
+
+                <h1 class="cv-text3">WORKING EXPERIENCE</h1>          
+                <h3>UPWORK<br> FREELANCE DESIGNER</h3>
+                <p class="cv-text1">responsible for managing and executing<br>
+                  graphic design and photo/video editing,<br>
+                  ensuring client satisfaction and timely delivery.
+                  </p>                
+        </div>
+      </div>
+      <img
+        src="./image and other assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+
+    <section id="experience">
+      <p class="section__text__p1" style="color: rgba(252, 159, 175, 0.959);">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container" style="background-color: rgba(252, 159, 174, 0.267);">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./image and other assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Basic po ganern</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./image and other assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Sakto lang</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./image and other assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>sapilitang inaaral</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./image and other assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./image and other assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>sapitang inaaral din</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./image and other assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>inaaral din T^T</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container" style="background-color: rgba(252, 159, 174, 0.267);">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./image and other assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Intermediate chos kapalan lang ng mukha pero medj may exp above  basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./image and other assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate - yung kakilala ko pero not me. inaaral palang</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./image and other assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate charot! yung kuya ko yun hindi ako pero anyway~~</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./image and other assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>super super basic mamsh as in SUPER</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./image and other assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./image and other assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:khrystellinea@gmail.com">khrystellineA@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./image and other assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/khrystel-bryana-aguila-09a149255/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+
+    <footer style="background-color: #8b567cb6;">
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#CV">Profile</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Khrystel Aguila. All Rights Reserved chos!.</p>
+    </footer>
+
+
+<script src="script.js"></script>
+
+  </body>
+</html>
