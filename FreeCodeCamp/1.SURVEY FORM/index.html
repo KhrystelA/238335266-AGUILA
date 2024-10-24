@@ -1,1 +1,55 @@
-1 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <h1 id="title">Survey Form</h1> 
+    <p id="description">Please fill out the form below to help us understand your preferences.</p> 
+
+
+    <form id="survey-form"> 
+
+        <label id="name-label" for="name">Name:  
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </label> 
+        
+        <label id="email-label" for="email">Email:  
+        <input type="email" id="email" name="email" placeholder="Enter your email" required> 
+        </label>
+
+        <label id="number-label" for="number">Age:  
+        <input type="number" id="number" name="age" min="18" max="100" placeholder="Enter your age"> 
+        </label>
+
+        <label for="dropdown">Which option best describes your role? 
+        <select id="dropdown" name="role" required> 
+            <option value="" disabled selected>Select an option</option>
+            <option value="student">Student</option>
+            <option value="professional">Professional</option>
+        </select>
+        </label>
+        
+        <p>How satisfied are you with the form?</p> 
+        <label><input type="radio" name="satisfaction" value="very-satisfied" required> Very Satisfied</label> 
+        <label><input type="radio" name="satisfaction" value="satisfied"> Satisfied</label>
+        <label><input type="radio" name="satisfaction" value="not-satisfied"> Not Satisfied</label>
+        
+        <p>Which parts need more improvement?</p> 
+        <label><input type="checkbox" name="services" value="product-design"> UI Design</label>
+        <label><input type="checkbox" name="services" value="web-development"> Content</label>
+        <label><input type="checkbox" name="services" value="digital-marketing"> Overall theme</label>
+        
+        <label for="comments">Additional comments:</label> 
+        <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+        
+        <button type="submit" id="submit">Submit</button> 
+
+    </form>
+
+</body>
+</html>
